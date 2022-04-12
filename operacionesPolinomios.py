@@ -11,7 +11,6 @@ import sympy
 #Obtenes los dos polinomios introducidos por el usuario
 P1 = input("Primer Polinomio: ")
 P2 = input("Segundo Polinomio: ")
-print("\n")
 
 #Definimos los simbolos
 sympy.init_printing()
