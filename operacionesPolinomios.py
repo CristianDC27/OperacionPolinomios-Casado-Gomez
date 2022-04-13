@@ -28,7 +28,7 @@ while True:
 
       break
 
-   except:
+   except Exception as e:
       print("Formato erróneo\n")
 
 operacion = Operacion(Poly1, Poly2)
